@@ -1,0 +1,113 @@
+juego-prueba-9 - juego de prueba de un caso realista de una
+                 excursión de un gran grupo (15 personas) con un 
+                 presupuesto de 100 euros por persona
+
+               - se espera recomendaciones que cumplan con los requisitos
+
+-> Indique (en Euros) el presupuesto total: 1500
+-> Indique el máximo número de días de su viaje: 7
+-> Indique el número mínimo de días en cada ciudad: 1
+-> Indique el número máximo de días en cada ciudad: 2
+-> Indique el número mínimo de ciudades que desea visitar: 2
+-> Indique el número máximo de ciudades que desea visitar: 5
+-> Indique el número de integrantes de su grupo: 15
+
+
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 1
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+Beijing
+Número de días de visita     : 2
+Alojamiento durante el viaje : Beijing Xingshe Youth Hostel
+Coste                        : 360
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : medio
+Densidad poblacional         : 1400 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : china
+Sitios de interés:
+  -> Palacio de Verano [cultural, descanso, romantico]
+  -> Ciudad Prohibida [cultural, descanso]
+  -> Gran Muralla China [cultural]
+  -> Plaza de Tiananmén [cultural, descanso]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+Tokio
+Número de días de visita     : 2
+Alojamiento durante el viaje : Tokyo Guesthouse HIVE
+Coste                        : 450
+Tipo de ciudad               : capital nacional
+Coste de vida                : alto
+Densidad poblacional         : 15000 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : japonesa
+Sitios de interés:
+  -> Templo Sensoji [cultural]
+  -> Tokyo Skytree [cultural, descanso]
+  -> Odaiba [cultural, romantico, descanso]
+------------------------------
+
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+Badajoz
+Número de días de visita     : 2
+Alojamiento durante el viaje : Hotel Cervantes
+Coste                        : 1350
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------
+
+Nueva Delhi
+Número de días de visita     : 1
+Alojamiento durante el viaje : Hotel Chanchal Continental
+Coste                        : 150
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : bajo
+Densidad poblacional         : 12000 habitantes por kilómetro cuadrado
+Clima                        : árido
+Gastronomía                  : india
+Sitios de interés:
+  -> Tumba de Humayun [cultural]
+  -> Fuerte Rojo [cultural, descanso, romantico]
+  -> Mezquita Jama Masjid [cultural]
+------------------------------

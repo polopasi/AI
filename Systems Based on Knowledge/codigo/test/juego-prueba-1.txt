@@ -1,0 +1,44 @@
+juego-prueba-1 - juego de prueba con presupuesto ínfimo
+
+               - se espera que no se encuentre ningún plan de viaje 
+                 en ninguno de las tres funciones
+
+-> Indique (en Euros) el presupuesto total: 1
+-> Indique el máximo número de días de su viaje: 5
+-> Indique el número mínimo de días en cada ciudad: 1
+-> Indique el número máximo de días en cada ciudad: 2
+-> Indique el número mínimo de ciudades que desea visitar: 2
+-> Indique el número máximo de ciudades que desea visitar: 4
+-> Indique el número de integrantes de su grupo: 10
+
+
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 1
+
+
+=========================================
+============ Viaje  estándar ============
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+===============================
+
+
+No se encontraron suficientes ciudades que cumplan los criterios.
+=========================================
+========== $$ Viaje Premium $$ ==========

@@ -1,0 +1,201 @@
+juego-prueba-4 - juego de prueba con información posiblemente conflictiva
+                 se exige viajar por mas ciudades que el máximo de días indicado
+
+               - se espera recomendaciones que incumplan la restricción del 
+                 mínimo de ciudades
+
+
+-> Indique (en Euros) el presupuesto total: 1000
+-> Indique el máximo número de días de su viaje: 5
+-> Indique el número mínimo de días en cada ciudad: 1
+-> Indique el número máximo de días en cada ciudad: 1
+-> Indique el número mínimo de ciudades que desea visitar: 6
+-> Indique el número máximo de ciudades que desea visitar: 6
+-> Indique el número de integrantes de su grupo: 2
+
+
+-> ¿Viaja con su pareja? (s/n): n
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 1
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+Badajoz
+Número de días de visita     : 1
+Alojamiento durante el viaje : Hotel Cervantes
+Coste                        : 90
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------
+
+Beijing
+Número de días de visita     : 1
+Alojamiento durante el viaje : Beijing Xingshe Youth Hostel
+Coste                        : 24
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : medio
+Densidad poblacional         : 1400 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : china
+Sitios de interés:
+  -> Palacio de Verano [cultural, descanso, romantico]
+  -> Ciudad Prohibida [cultural, descanso]
+  -> Gran Muralla China [cultural]
+  -> Plaza de Tiananmén [cultural, descanso]
+------------------------------
+
+Berlin
+Número de días de visita     : 1
+Alojamiento durante el viaje : Hotel M68
+Coste                        : 96
+
+Tipo de ciudad               : capital europea
+Coste de vida                : alto
+Densidad poblacional         : 4200 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : alemana
+Sitios de interés:
+  -> Puerta de Brandeburgo [cultural, descanso]
+  -> Bebelplatz [cultural, descanso, romantico]
+  -> Berliner Dom [cultural]
+  -> Museo de Pérgamo [cultural]
+  -> Parque Tiergarten [cultural, descanso, romantico]
+------------------------------
+
+Bruselas
+Número de días de visita     : 1
+Alojamiento durante el viaje : Royal Hotel
+Coste                        : 112
+
+Tipo de ciudad               : capital internacional
+Coste de vida                : alto
+Densidad poblacional         : 7700 habitantes por kilómetro cuadrado
+Clima                        : atlántico
+Gastronomía                  : belga
+Sitios de interés:
+  -> Grand Place [cultural, descanso]
+  -> Galerías Saint Hubert [cultural, descanso]
+  -> Manneken Pis [cultural]
+  -> Puerta de Halle [cultural, descanso, romantico]
+  -> Jardín Mont des Arts [cultural, descanso, romantico]
+------------------------------
+
+Buenos Aires
+Número de días de visita     : 1
+Alojamiento durante el viaje : Hotel O'Rei
+Coste                        : 44
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : bajo
+Densidad poblacional         : 14000 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : latinoamericana
+Sitios de interés:
+  -> Plaza de mayo [descanso, romantico, cultural]
+  -> Catedral metropolitana de Buenos Aires [cultural]
+  -> Planetario Galileo Galilei [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+Valencia
+Número de días de visita     : 1
+Alojamiento durante el viaje : SUNDOS Feria Valencia
+Coste                        : 118
+Tipo de ciudad               : ciudad mediana
+Coste de vida                : medio
+Densidad poblacional         : 6200 habitantes por kilómetro cuadrado
+Clima                        : mediterráneo
+Gastronomía                  : mediterránea
+Sitios de interés:
+  -> Barrio del Carmen [descanso, descanso]
+  -> Iglesia de San Nicolás [cultural]
+  -> Torres de Serranos [cultural]
+------------------------------
+
+Tokio
+Número de días de visita     : 1
+Alojamiento durante el viaje : Tokyo Guesthouse HIVE
+Coste                        : 30
+Tipo de ciudad               : capital nacional
+Coste de vida                : alto
+Densidad poblacional         : 15000 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : japonesa
+Sitios de interés:
+  -> Templo Sensoji [cultural]
+  -> Tokyo Skytree [cultural, descanso]
+  -> Odaiba [cultural, romantico, descanso]
+------------------------------
+
+Sydney
+Número de días de visita     : 1
+Alojamiento durante el viaje : The Alison Randwick
+Coste                        : 152
+Tipo de ciudad               : cosmopolita
+Coste de vida                : alto
+Densidad poblacional         : 450 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : fusión internacional
+Sitios de interés:
+  -> Jardín botánico de Sydney [descanso, romantico, cultural]
+  -> Circular Quay [descanso, romantico]
+  -> The Rocks [descanso]
+  -> Museum of Sydney [cultural]
+------------------------------
+
+París
+Número de días de visita     : 1
+Alojamiento durante el viaje : Hotel Des Arts
+Coste                        : 116
+Tipo de ciudad               : capital nacional
+Coste de vida                : alto
+Densidad poblacional         : 21000 habitantes por kilómetro cuadrado
+Clima                        : atlántico
+Gastronomía                  : noreuropea
+Sitios de interés:
+  -> Torre Eiffel [romantico, descanso, cultural]
+  -> Biblioteca Nacional de Francia [cultural]
+  -> Basílica Sagrado Corazón [cultural]
+  -> Museo del Louvre [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+No se encontraron suficientes ciudades que cumplan los criterios.
+          

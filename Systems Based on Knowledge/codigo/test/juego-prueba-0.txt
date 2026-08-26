@@ -1,0 +1,138 @@
+juego-prueba-0 - juego de prueba con alto presupuesto con bajos requisitos
+
+               - se espera recomendaciones de hoteles de alta calidad
+
+-> Indique (en Euros) el presupuesto total: 10000
+-> Indique el máximo número de días de su viaje: 10
+-> Indique el número mínimo de días en cada ciudad: 3
+-> Indique el número máximo de días en cada ciudad: 5
+-> Indique el número mínimo de ciudades que desea visitar: 2
+-> Indique el número máximo de ciudades que desea visitar: 3
+-> Indique el número de integrantes de su grupo: 1
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+-> ¿Desea visitar lugares culturales? (s/n): s
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 5
+
+
+=========================================
+============ Viaje  estándar ============
+Badajoz
+Número de días de visita     : 5
+Alojamiento durante el viaje : NH Gran Hotel Casino de Extremadura
+Coste                        : 470
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------
+
+Barcelona
+Número de días de visita     : 5
+Alojamiento durante el viaje : W Barcelona
+Coste                        : 2665.0
+
+Tipo de ciudad               : cosmopolita
+Coste de vida                : medio-alto
+Densidad poblacional         : 16600 habitantes por kilómetro cuadrado
+Clima                        : mediterráneo
+Gastronomía                  : mediterránea
+Sitios de interés:
+  -> Sagrada Família [cultural]
+  -> Park Güell [cultural, descanso]
+  -> Casa Batlló [cultural]
+  -> Arc del Triomf [cultural, descanso, romantico]
+  -> Platja de la Barceloneta [descanso]
+  -> Jardines del Palacio de Pedralbes [descanso, romantico]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+Washington D.C.
+Número de días de visita     : 5
+Alojamiento durante el viaje : The Royal Sonesta Washington DC Capitol Hill
+Coste                        : 1443.65
+Tipo de ciudad               : capital nacional
+Coste de vida                : alto
+Densidad poblacional         : 4300 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : estadounidense
+Sitios de interés:
+  -> National Mall [cultural]
+  -> Smithsonian [cultural]
+  -> Capitolio [cultural, romantico, descanso]
+------------------------------
+
+Valencia
+Número de días de visita     : 5
+Alojamiento durante el viaje : SH Valencia Palace
+Coste                        : 1080
+Tipo de ciudad               : ciudad mediana
+Coste de vida                : medio
+Densidad poblacional         : 6200 habitantes por kilómetro cuadrado
+Clima                        : mediterráneo
+Gastronomía                  : mediterránea
+Sitios de interés:
+  -> Barrio del Carmen [descanso, descanso]
+  -> Iglesia de San Nicolás [cultural]
+  -> Torres de Serranos [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+Badajoz
+Número de días de visita     : 5
+Alojamiento durante el viaje : NH Gran Hotel Casino de Extremadura
+Coste                        : 470
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------
+
+Barcelona
+Número de días de visita     : 5
+Alojamiento durante el viaje : Ohla Barcelona
+Coste                        : 2955
+
+Tipo de ciudad               : cosmopolita
+Coste de vida                : medio-alto
+Densidad poblacional         : 16600 habitantes por kilómetro cuadrado
+Clima                        : mediterráneo
+Gastronomía                  : mediterránea
+Sitios de interés:
+  -> Sagrada Família [cultural]
+  -> Park Güell [cultural, descanso]
+  -> Casa Batlló [cultural]
+  -> Arc del Triomf [cultural, descanso, romantico]
+  -> Platja de la Barceloneta [descanso]
+  -> Jardines del Palacio de Pedralbes [descanso, romantico]
+------------------------------

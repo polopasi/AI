@@ -1,0 +1,76 @@
+juego-prueba-7 - juego de prueba de un caso realista de una familia
+                 con un presupuesto alto para 5 personas
+
+               - se espera recomendaciones que cumplan con los requisitos
+               
+-> Indique (en Euros) el presupuesto total: 2800
+-> Indique el máximo número de días de su viaje: 5
+-> Indique el número mínimo de días en cada ciudad: 3
+-> Indique el número máximo de días en cada ciudad: 5
+-> Indique el número mínimo de ciudades que desea visitar: 2
+-> Indique el número máximo de ciudades que desea visitar: 2
+-> Indique el número de integrantes de su grupo: 5
+
+
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): s
+-> Le vamos a preguntar por el tipo de vehiculo que prefiere utilizar. Especifique sí o no con (s/n)
+-> ¿Le gustaría utilizar coche para viajar entre destinos? (s/n): s
+-> ¿Le gustaría utilizar el tren para viajar entre destinos? (s/n): s
+-> ¿Le gustaría volar en un avión para viajar entre destinos? (s/n): s
+-> ¿Le gustaría navegar en barco para viajar entre destinos? (s/n): n
+
+--- Información sobre sus preferencias de transporte procesada ---
+
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): s
+-> ¿Desea visitar ciudades o pueblos con baja población? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): s
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): s
+-> Indique el clima preferido escribiendo exactamente, acentos incluidos, una de las siguientes opciones disponibles: mediterráneo continental atlántico árido subtropical-húmedo: mediterráneo
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 3
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+Lisboa
+Número de días de visita     : 3
+Alojamiento durante el viaje : Hotel Botanico
+Coste                        : 1335
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : medio
+Densidad poblacional         : 6500 habitantes por kilómetro cuadrado
+Clima                        : mediterráneo
+Gastronomía                  : mediterránea
+Sitios de interés:
+  -> Castillo de San Jorge [cultural]
+  -> Tranvía 28 [descanso, romantico]
+  -> Arco del triunfo [cultural, descanso]
+  -> Monasterio de los Jerónimos [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+No se encontraron suficientes ciudades que cumplan los criterios.
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+No se encontraron suficientes ciudades que cumplan los criterios.

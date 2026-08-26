@@ -1,0 +1,92 @@
+juego-prueba-2 - juego de prueba con usuario con muchas exigencias
+
+               - se espera recomendaciones con una cantidad baja de
+                 destinos
+
+-> Indique (en Euros) el presupuesto total: 1000
+-> Indique el máximo número de días de su viaje: 9
+-> Indique el número mínimo de días en cada ciudad: 3
+-> Indique el número máximo de días en cada ciudad: 4
+-> Indique el número mínimo de ciudades que desea visitar: 3
+-> Indique el número máximo de ciudades que desea visitar: 3
+-> Indique el número de integrantes de su grupo: 2
+
+
+-> ¿Viaja con su pareja? (s/n): s
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): s
+-> Le vamos a preguntar por el tipo de vehiculo que prefiere utilizar. Especifique sí o no con (s/n)
+-> ¿Le gustaría utilizar coche para viajar entre destinos? (s/n): n
+-> ¿Le gustaría utilizar el tren para viajar entre destinos? (s/n): n
+-> ¿Le gustaría volar en un avión para viajar entre destinos? (s/n): n
+-> ¿Le gustaría navegar en barco para viajar entre destinos? (s/n): s
+
+--- Información sobre sus preferencias de transporte procesada ---
+
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): s
+-> ¿Desea visitar ciudades o pueblos con baja población? (s/n): s
+
+
+-> ¿Desea visitar lugares culturales? (s/n): s
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): s
+-> Indique el clima preferido escribiendo exactamente, acentos incluidos, una de las siguientes opciones disponibles: mediterráneo continental atlántico árido subtropical-húmedo: subtropical-húmedo
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 5
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+Sydney
+Número de días de visita     : 4
+Alojamiento durante el viaje : Meriton Suites Mascot Central
+Coste                        : 861.28
+
+Tipo de ciudad               : cosmopolita
+Coste de vida                : alto
+Densidad poblacional         : 450 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : fusión internacional
+Sitios de interés:
+  -> Jardín botánico de Sydney [descanso, romantico, cultural]
+  -> Circular Quay [descanso, romantico]
+  -> The Rocks [descanso]
+  -> Museum of Sydney [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+Sydney
+Número de días de visita     : 4
+Alojamiento durante el viaje : Meriton Suites Mascot Central
+Coste                        : 861.28
+Tipo de ciudad               : cosmopolita
+Coste de vida                : alto
+Densidad poblacional         : 450 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : fusión internacional
+Sitios de interés:
+  -> Jardín botánico de Sydney [descanso, romantico, cultural]
+  -> Circular Quay [descanso, romantico]
+  -> The Rocks [descanso]
+  -> Museum of Sydney [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+No se encontraron suficientes ciudades que cumplan los criterios.

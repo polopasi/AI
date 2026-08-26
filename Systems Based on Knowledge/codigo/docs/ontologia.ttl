@@ -1,0 +1,413 @@
+@prefix : <http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/> .
+
+<http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/acompanyado_con
+:acompanyado_con rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :preferencia ;
+                 rdfs:range :tamanyo_grupo .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/alojado_en
+:alojado_en rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :tamanyo_grupo ;
+            rdfs:range :alojamiento .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/cumple_con
+:cumple_con rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :sitio_interes ;
+            rdfs:range :objetivo .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/dispone_de
+:dispone_de rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :ciudad ;
+            rdfs:range :alojamiento ,
+                       :sitio_interes ,
+                       :transporte .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/limitado_por
+:limitado_por rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :restriccion ;
+              rdfs:range :duracion ,
+                         :numero_paradas ,
+                         :presupuesto ,
+                         :tiempo_ciudad .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/prefiere_viajar_en
+:prefiere_viajar_en rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :preferencia ;
+                    rdfs:range :transporte .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/prefiere_visitar
+:prefiere_visitar rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :preferencia ;
+                  rdfs:range :sitio_interes .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/quiere_cumplir
+:quiere_cumplir rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :viaje ;
+                rdfs:range :objetivo .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/realiza
+:realiza rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :usuario ;
+         rdfs:range :viaje .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tiene_preferencia
+:tiene_preferencia rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :usuario ;
+                   rdfs:range :preferencia .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tiene_restriccion
+:tiene_restriccion rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :usuario ;
+                   rdfs:range :restriccion .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tipo
+:tipo rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty ;
+      rdfs:domain :objetivo .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/visita
+:visita rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :viaje ;
+        rdfs:range :ciudad .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain :usuario ;
+                      rdfs:range :restriccion .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/capacidad_alojamiento
+:capacidad_alojamiento rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdf:type owl:FunctionalProperty ;
+                       rdfs:domain :alojamiento ;
+                       rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/clima
+:clima rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdf:type owl:FunctionalProperty ;
+       rdfs:domain :ciudad ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/comodidad_alojamiento
+:comodidad_alojamiento rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdf:type owl:FunctionalProperty ;
+                       rdfs:domain :alojamiento ;
+                       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/coste_de_vida
+:coste_de_vida rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :ciudad ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/densidad_poblacional
+:densidad_poblacional rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :ciudad ;
+                      rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/edad_usuario
+:edad_usuario rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :usuario ;
+              rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/gastronomia
+:gastronomia rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :ciudad ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/horario_sitio_interes
+:horario_sitio_interes rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdf:type owl:FunctionalProperty ;
+                       rdfs:domain :sitio_interes ;
+                       rdfs:range xsd:dateTimeStamp .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/max_ciudades_visitadas
+:max_ciudades_visitadas rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        rdf:type owl:FunctionalProperty ;
+                        rdfs:domain :numero_paradas ;
+                        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/max_dias_en_ciudad
+:max_dias_en_ciudad rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :tiempo_ciudad ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/max_dias_totales
+:max_dias_totales rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :duracion ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/min_ciudades_visitadas
+:min_ciudades_visitadas rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        rdf:type owl:FunctionalProperty ;
+                        rdfs:domain :numero_paradas ;
+                        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/min_dias_en_ciudad
+:min_dias_en_ciudad rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :tiempo_ciudad ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/min_dias_totales
+:min_dias_totales rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :duracion ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/nivel_cultural
+:nivel_cultural rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :usuario ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/nombre_alojamiento
+:nombre_alojamiento rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :alojamiento ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/nombre_ciudad
+:nombre_ciudad rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :ciudad ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/nombre_sitio_interes
+:nombre_sitio_interes rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :sitio_interes ;
+                      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/nombre_usuario
+:nombre_usuario rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :usuario ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/numero_integrantes
+:numero_integrantes rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :tamanyo_grupo ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/precio_alojamiento
+:precio_alojamiento rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :alojamiento ;
+                    rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/precio_sitio_interes
+:precio_sitio_interes rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :sitio_interes ;
+                      rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/presupuesto
+:presupuesto rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :presupuesto ;
+             rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tipo_ciudad
+:tipo_ciudad rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :ciudad ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tipo_de_ocio
+:tipo_de_ocio rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :objetivo ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tipo_objetivo
+:tipo_objetivo rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :objetivo ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tipo_transporte
+:tipo_transporte rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :transporte ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/umbral_presupuesto
+:umbral_presupuesto rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :presupuesto ;
+                    rdfs:range xsd:float .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :numero_paradas ;
+                    rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/alojamiento
+:alojamiento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/ciudad
+:ciudad rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/duracion
+:duracion rdf:type owl:Class ;
+          rdfs:subClassOf :restriccion .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/numero_paradas
+:numero_paradas rdf:type owl:Class ;
+                rdfs:subClassOf :restriccion .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/objetivo
+:objetivo rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/preferencia
+:preferencia rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/presupuesto
+:presupuesto rdf:type owl:Class ;
+             rdfs:subClassOf :restriccion .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/restriccion
+:restriccion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/sitio_interes
+:sitio_interes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tamanyo_grupo
+:tamanyo_grupo rdf:type owl:Class ;
+               rdfs:subClassOf :preferencia .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/tiempo_ciudad
+:tiempo_ciudad rdf:type owl:Class ;
+               rdfs:subClassOf :restriccion .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/transporte
+:transporte rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/usuario
+:usuario rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jorge/ontologies/2026/4/untitled-ontology-21/viaje
+:viaje rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

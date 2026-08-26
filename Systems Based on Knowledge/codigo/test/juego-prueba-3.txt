@@ -1,0 +1,62 @@
+juego-prueba-3 - juego de prueba con información posiblemente conflictiva
+                 se exige viajar únicamente en barco, pero con clima
+                 continental
+
+               - se espera recomendaciones con una cantidad baja de 
+                 destinos o incluso que no se encuentren viajes
+
+-> Indique (en Euros) el presupuesto total: 1000
+-> Indique el máximo número de días de su viaje: 5
+-> Indique el número mínimo de días en cada ciudad: 2
+-> Indique el número máximo de días en cada ciudad: 3
+-> Indique el número mínimo de ciudades que desea visitar: 2
+-> Indique el número máximo de ciudades que desea visitar: 3
+-> Indique el número de integrantes de su grupo: 2
+
+
+-> ¿Viaja con su pareja? (s/n): n
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): s
+-> Le vamos a preguntar por el tipo de vehiculo que prefiere utilizar. Especifique sí o no con (s/n)
+-> ¿Le gustaría utilizar coche para viajar entre destinos? (s/n): n
+-> ¿Le gustaría utilizar el tren para viajar entre destinos? (s/n): n
+-> ¿Le gustaría volar en un avión para viajar entre destinos? (s/n): n
+-> ¿Le gustaría navegar en barco para viajar entre destinos? (s/n): s
+
+--- Información sobre sus preferencias de transporte procesada ---
+
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): s
+-> Indique el clima preferido escribiendo exactamente, acentos incluidos, una de las siguientes opciones disponibles: mediterráneo continental atlántico árido subtropical-húmedo: continental
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 1
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+No se encontraron ciudades que cumplan los criterios.
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+No se encontraron ciudades que cumplan los criterios.
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+No se encontraron suficientes ciudades que cumplan los criterios.

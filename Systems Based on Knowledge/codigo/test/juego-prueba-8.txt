@@ -1,0 +1,135 @@
+juego-prueba-8 - juego de prueba de un caso realista de una
+                 pareja romántica con un presupuesto alto, y
+                 que desea lugares poco transitados
+
+               - se espera recomendaciones que cumplan con los requisitos
+        
+-> Indique (en Euros) el presupuesto total: 3100
+-> Indique el máximo número de días de su viaje: 11
+-> Indique el número mínimo de días en cada ciudad: 3
+-> Indique el número máximo de días en cada ciudad: 11
+-> Indique el número mínimo de ciudades que desea visitar: 1
+-> Indique el número máximo de ciudades que desea visitar: 2
+-> Indique el número de integrantes de su grupo: 2
+
+
+-> ¿Viaja con su pareja? (s/n): s
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): s
+-> ¿Desea visitar ciudades o pueblos con baja población? (s/n): s
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 4
+
+
+
+
+
+
+=========================================
+============ Viaje  estándar ============
+Badajoz
+Número de días de visita     : 8
+Alojamiento durante el viaje : NH Gran Hotel Casino de Extremadura
+Coste                        : 1504
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------
+
+Beijing
+Número de días de visita     : 3
+Alojamiento durante el viaje : Hilton Garden Inn Beijing Yizhuang
+Coste                        : 378
+
+Tipo de ciudad               : capital nacional
+Coste de vida                : medio
+Densidad poblacional         : 1400 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : china
+Sitios de interés:
+  -> Palacio de Verano [cultural, descanso, romantico]
+  -> Ciudad Prohibida [cultural, descanso]
+  -> Gran Muralla China [cultural]
+  -> Plaza de Tiananmén [cultural, descanso]
+------------------------------
+
+===============================
+
+
+=========================================
+=========== Viaje estándar #2 ===========
+Sydney
+Número de días de visita     : 8
+Alojamiento durante el viaje : Megaboom City Hotel
+Coste                        : 1536
+Tipo de ciudad               : cosmopolita
+Coste de vida                : alto
+Densidad poblacional         : 450 habitantes por kilómetro cuadrado
+Clima                        : subtropical-húmedo
+Gastronomía                  : fusión internacional
+Sitios de interés:
+  -> Jardín botánico de Sydney [descanso, romantico, cultural]
+  -> Circular Quay [descanso, romantico]
+  -> The Rocks [descanso]
+  -> Museum of Sydney [cultural]
+------------------------------
+
+El Cairo
+Número de días de visita     : 3
+Alojamiento durante el viaje : Garden City Hotel Nile-Palace
+Coste                        : 522
+Tipo de ciudad               : ciudad turística
+Coste de vida                : muy bajo
+Densidad poblacional         : 2300 habitantes por kilómetro cuadrado
+Clima                        : árido
+Gastronomía                  : árabe
+Sitios de interés:
+  -> Ciudadela de Saladino [cultural]
+  -> Al-Azhar Park [cultural, romantico, descanso]
+  -> Bazar de Jan el-Jalili [cultural]
+  -> Museo Egipcio de El Cairo [cultural]
+  -> Iglesia Colgante [cultural]
+------------------------------
+
+===============================
+
+
+=========================================
+========== $$ Viaje Premium $$ ==========
+Badajoz
+Número de días de visita     : 11
+Alojamiento durante el viaje : Hotel Las Tres Campanas
+Coste                        : 2750
+
+Tipo de ciudad               : regional
+Coste de vida                : medio-bajo
+Densidad poblacional         : 104 habitantes por kilómetro cuadrado
+Clima                        : continental
+Gastronomía                  : extremeña
+Sitios de interés:
+  -> Alcazaba de Badajoz [cultural]
+  -> Puerta de Palmas [cultural, descanso]
+  -> Plaza Alta [descanso, cultural, romantico]
+  -> Catedral de Badajoz [cultural]
+  -> Parque Fluvial [descanso, romantico]
+------------------------------

@@ -1,0 +1,37 @@
+juego-prueba-5 - juego de prueba con información erronea
+                 los minimos son mayores que los maximos
+
+               - se espera que el programa avise de los datos erroneamente introducidos
+
+-> Indique (en Euros) el presupuesto total: 500
+-> Indique el máximo número de días de su viaje: 6
+-> Indique el número mínimo de días en cada ciudad: 8
+-> Indique el número máximo de días en cada ciudad: 1
+-> Indique el número mínimo de ciudades que desea visitar: 8
+-> Indique el número máximo de ciudades que desea visitar: 2
+-> Indique el número de integrantes de su grupo: 3
+
+
+
+
+-> ¿Tiene alguna preferencia en particular en el medio de trasporte para viajar? (s/n): n
+
+
+-> ¿Prefiere visitar lugares tranquilos con el objetivo de desconectar? (s/n): n
+
+
+-> ¿Desea visitar lugares culturales? (s/n): n
+
+
+-> ¿Prefiere visitar destinos con algún clima en particular? (s/n): n
+
+
+-> Indique la comodidad deseada del alojamiento. Opciones disponibles: 1, 2, 3, 4, 5: 1
+
+
+ERROR al rellenar los datos.
+Tenga en cuenta que se deben cumplir estas comdiciones:
+    - Mínimo días total <= Máximo días total
+    - Mínimo días por ciudad <= Máximo días por ciudad
+    - Mínimo ciudades visitadas <= Máximo ciudades visitadas
+
